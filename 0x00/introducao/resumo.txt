@@ -1,0 +1,10 @@
+Microserviços são uma arquitetura de desenvolvimento de aplicações que tem como o base a construção de aplicações com funções únicas e
+que terão um único papel dentro da aplicação como um todo. Ela se diferencia da arquitetura monolítica, onde toda a aplicação é feita de forma altamente
+acoplada, fazendo com que todo o código esteja rodando em conjunto, o que cria uma grande dependência entre as funções presentes. As principais vnatages da
+arquitetura de microserviços são: a independência entre as aplicações, onde se um serviço para, o outro irá continuar funcionando normalmente, a facilidade de
+manutenção, já que com cada código separado, quando um problema é encontrado, a equipe responsável pode rapidamente parar aquele microserviço, consertar, e
+colocar de voltar, e por último a escalabilidade, pois quanto mais funções e demandas são solicitadas pelo cliente para que sejam implementadas, já que a
+criação de novos microserviços se torna linear, o que facilita essa nova implementação. A comunicação de microserviços pode se dar por: HTTP, onde um código irá
+diretamente consumir o outro serviço para que haja uma execução que é necessária naquele microserviço, via mensageria, onde a comunicação se dá de forma
+indireta, por meio de um intermediador, que irá captar a mensagem enviada por um serviço e repassá-la para o outro, e orientado a eventos, onde os serviços irão
+agir de acordo com a ocorrência de um evento dentro do sistema, e não á mensagem que foi enviada pelo microserviço.
